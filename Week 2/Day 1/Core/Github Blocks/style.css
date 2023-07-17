@@ -1,0 +1,30 @@
+.first-container > img{
+    width: 200px;
+}
+
+.first-container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-container > img{
+    width: 200px;
+}
+
+.second-container{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.third-container > img{
+    width: 200px;
+}
+
+.third-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
