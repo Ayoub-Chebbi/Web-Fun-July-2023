@@ -1,0 +1,39 @@
+.row{
+    display: flex;
+}
+
+.col{
+    background-color: rgb(35, 106, 106);
+    margin: 10px;
+    flex: 1;
+    height: 75px;
+}
+
+.col-part2{
+    background-color: rgb(35, 106, 106);
+    margin: 10px;
+    flex: 1;
+    height: 75px;
+}
+
+.col-2-part2{
+    background-color: rgb(35, 106, 106);
+    margin: 10px;
+    flex: 2;
+    height: 75px;
+}
+
+
+.col-2-part3{
+    background-color: rgb(35, 106, 106);
+    margin: 10px;
+    flex: 2;
+    height: 75px;
+}
+
+.col-3-part3{
+    background-color: rgb(35, 106, 106);
+    margin: 10px;
+    flex: 3;
+    height: 75px;
+}
