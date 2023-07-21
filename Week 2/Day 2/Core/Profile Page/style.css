@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.background-color{
+    background-color: #17A2B8;
+    height: 100px;
+}
+
+.user-card_main-container{
+    height: 100%;
+    padding-left: 30px;
+}
+
+.container{
+    padding: 30px 20% 20px 20%;
+    display: flex;
+    gap: 20px;
+}
+
+.user-card_container{
+    border: 3px solid grey;
+    border-radius: 5px;
+    line-height: 35px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.image-edit{
+    overflow:hidden;
+    width: 100px;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: -46px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: black;
+    padding: 17px;
+}
+
+.left-section_navbar{
+    display: flex;
+    gap: 20px;
+}
+
+.left-section_navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.left-section_navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar-btn button{
+    background-color: #17A2B8;
+    border: 1px solid transparent;
+    color: white;
+    padding: 6px 22px;
+}
+
+.first-section{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.background-color_education{
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+
+.education-section{
+    border: 3px solid grey;
+    border-radius: 6px;
+}
+
+.carrier{
+    padding: 20px;
+    line-height: 30px;
+}
+
+.nb{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: grey;
+    padding: 5px 10px;
+}
+
+.background-color_connection{
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+
+
+.flex-connection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-section_connection img {
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.left-section_connection{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.connection{
+    border: 3px solid grey;
+    border-radius: 4px;
+}
+
+.right-section_connection button{
+    color: white;
+    background-color: #999999;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.images{
+    padding: 10px;
+}
+
+.Second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.connection-bottom{
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.images-bottom{
+    padding: 10px;
+}
+
+.bottom-connection{
+    border-top: 3px solid grey;
+    padding: 10px;
+}
