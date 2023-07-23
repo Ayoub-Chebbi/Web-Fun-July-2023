@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 10px;
+}
+
+.container{
+    padding: 10px 20% 10px 20%;
+}
+
+.ninja-feed_post{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+.right-section p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.section-1{
+    width: 60%;
+}
+
+.left-section button{
+    border: 3px solid black;
+    box-shadow: 3px 4px;
+    background-color: #FFD966;
+    padding: 4px 20px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    gap: 40px;
+}
+
+.defined{
+    border: 3px solid black;
+    margin-top: 15px;
+    padding: 25px;
+    text-align: center;
+}
+
+.defined button{
+    border:3px solid black;
+    padding: 8px 30px;
+    background-color: #93C47D;
+    cursor: pointer;
+    box-shadow: 3px 4px;
+}
+
+.navbar button{
+    border: 3px solid black;
+    box-shadow: 3px 4px;
+    background-color: #2B78E4;
+    padding: 4px 20px;
+    cursor: pointer;
+}
