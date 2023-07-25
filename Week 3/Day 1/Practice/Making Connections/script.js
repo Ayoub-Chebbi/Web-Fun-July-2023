@@ -3,7 +3,7 @@ console.log("page loaded...");
 var userCard = document.querySelector("#remove-card");
 
 function changeonlick(){
-    userCard.remove;
+    userCard.remove();
 }
 
 var userName = document.querySelector("#name");
