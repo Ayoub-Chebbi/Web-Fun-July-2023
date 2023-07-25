@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    color: white;
+}
+
+.navbar{
+    background-color: #9FC5F8;
+}
+
+.anchor-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.anchor-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.container{
+    padding: 20px 23% 20px 23%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.city-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.meteo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.met1 img{
+    width: 140px;
+    border: 1px solid transparent;
+    border-radius: 50px ;
+}
+
+.temperature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.met1{
+    border: 3px solid transparent;
+    padding: 6px 14px 30px 14px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.temperature p:first-child{
+    color: #CF2E2B;
+    font-weight: bold;
+}
+
+.temperature p:last-child{
+    color: #2B78E4;
+    font-weight: bold;
+}
+
+.cookies{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.cookies button{
+    background-color: #9FC5F8;
+    color: black;
+    border: 3px solid black;
+    padding: 6px 15px;
+    cursor: pointer;
+}

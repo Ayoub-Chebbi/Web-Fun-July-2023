@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="main-navbar">
+            <div class="logo">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="main-list">
+                <ul class="anchor-list">
+                    <li>
+                        <a onclick="alertOnclick()" href="#">BurBank</a>
+                    </li>
+                    <li>
+                        <a onclick="alertOnclick()" href="#">Chicago</a>
+                    </li>
+                    <li>
+                        <a onclick="alertOnclick()" href="#">Dallas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="city-name">
+            <div class="name">
+                <h1>San Jose</h1>
+            </div>
+            <div class="select">
+                <p>Show temperature in </p>
+                <select onchange="convert(this)" class="select-main">
+                    <option value="C">C</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+        </div>
+        <hr style="margin-bottom: 20px;">
+        <div class="meteo">
+            <div class="met1">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png">
+                <p>some rain</p>
+                <div class="temperature">
+                    <p class="para1">24*</p>
+                    <p class="para2">18*</p>
+                </div>
+            </div>
+            <div class="met1">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png">
+                <p>some sun</p>
+                <div class="temperature">
+                    <p class="para3">27*</p>
+                    <p class="para4">19*</p>
+                </div>
+            </div>
+            <div class="met1">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png">
+                <p>some clouds</p>
+                <div class="temperature">
+                    <p class="para5">21*</p>
+                    <p class="para6">16*</p>
+                </div>
+            </div>
+            <div class="met1">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png">
+                <p>some sun</p>
+                <div class="temperature">
+                    <p class="para7">26*</p>
+                    <p class="para8">21*</p>
+                </div>
+            </div>
+        </div>
+        <div id="cookie" class="cookies">
+            <img src="assets/cookie.png">
+            <div class="text">
+                <h4>Stop! Cookie time</h4>
+                <p>We Use cookies (sadly not the edible ones) to personalize <br> content and ads, to provide social media features and to analyze our traffic, <a href="#">Read more ...</a></p>
+            </div>
+            <button onclick="accept()">I Accept</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
